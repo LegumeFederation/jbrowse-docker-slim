@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-ENV VERSION 1.15.4
+ENV VERSION 1.16.0
 
 RUN wget -O jbrowse.zip https://github.com/GMOD/jbrowse/releases/download/${VERSION}-release/JBrowse-${VERSION}.zip && \
     unzip jbrowse.zip && \
